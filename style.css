@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500;700;800&family=Montserrat:wght@500;700&display=swap');
+
+body{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border-radius: 15px;
+    font-family: "Hanken Grotesk", sans-serif;
+
+}
+main {
+    width: 600px;
+    height: 425px;
+    border-radius: 15px;
+    display: flex;
+    background-color: white;
+    box-shadow: 5px 10px 20px 0px rgb(83, 82, 84);
+}
+.bloc1{
+    background-image: linear-gradient(to top,hsl(241, 81%, 54%),hsl(252, 100%, 67%) )  ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    color: white;
+    width: 300px;
+    
+}
+.titre{
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 30px;
+}
+.cercle{
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom,hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0) )  ;
+    font-size: 60px;
+    height: 175px;
+    width: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    font-size: 15px;
+    color: rgb(128, 122, 115);
+}
+.great{
+    font-size: 25px;
+    padding-top: 20px;
+}
+p{
+    padding: 0px 38px;
+    color: hsl(241, 100%, 89%);
+    text-align: center;
+}
+
+.bloc2{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.bloc{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.titre2{
+    padding: 20px;
+    padding-top: 30px;
+}
+.parm{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 230px;
+    border-radius: 8px;
+}
+
+.feature{
+    display: flex;
+    align-items: center;
+}
+.feature img{
+    margin-right: 10px  ;
+}
+#a{
+    background-color:hsla(0, 100%, 67%, 0.096);
+    color: hsl(0, 100%, 67%);
+}
+#b{
+    background-color: hsla(39, 100%, 56%, 0.151);
+    color: hsl(39, 100%, 56%);
+}
+#c{
+    background-color: hsla(166, 100%, 37%, 0.091);
+    color:hsl(166, 100%, 37%) ;
+}
+#d{
+    color: hsl(234, 85%, 45%);
+    background-color:hsla(234, 85%, 45%, 0.048);
+}
+.btn{
+    background-color: hsl(224, 30%, 27%);
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border-radius: 15pc;
+    
+}
+a{
+    color: white;
+    padding: 13px;
+    text-decoration: none;
+
+}
+.nbr{
+    color: black;
+}
